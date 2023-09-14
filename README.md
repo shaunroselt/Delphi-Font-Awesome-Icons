@@ -24,9 +24,30 @@ uses uFontAwesomeIcons
 
 ...
 
+
 var HouseIconSVG := GetFontAwesomeIcon('house'); // Returns SVG Code
 var ValveSteamIconSVG := GetFontAwesomeIcon('steam'); // Returns SVG Code
 var BrushIconSVG := GetFontAwesomeIcon('brush'); // Returns SVG Code
+
+var HouseIconSVG := GetFontAwesomeIcon('house', 24); // Returns SVG Code with Width/Height set to 24
+var ValveSteamIconSVG := GetFontAwesomeIcon('steam', 24); // Returns SVG Code with Width/Height set to 24
+var BrushIconSVG := GetFontAwesomeIcon('brush', 24); // Returns SVG Code with Width/Height set to 24
 ```
 
+### SVG Path Data
+
+```pascal
+uses uFontAwesomeIcons
+
+...
+
+
+var HouseIconSVGPathData := GetFontAwesomeIconPathData('house'); // Returns SVG Path Data Text
+var ValveSteamIconSVGPathData := GetFontAwesomeIconPathData('steam'); // Returns SVG Path Data Text
+var BrushIconSVGPathData := GetFontAwesomeIconPathData('brush'); // Returns SVG Path Data Text
+
+var HouseIconSVGPathData := GetFontAwesomeIconPathData('house', 24); // Returns SVG Path Data Text with Width/Height set to 24
+var ValveSteamIconSVGPathData := GetFontAwesomeIconPathData('steam', 24); // Returns SVG Path Data Text with Width/Height set to 24
+var BrushIconSVGPathData := GetFontAwesomeIconPathData('brush', 24); // Returns SVG Path Data Text with Width/Height set to 24
+```
 Other ways to use Font Awesome Icons: [https://fontawesome.com/docs](https://fontawesome.com/docs)

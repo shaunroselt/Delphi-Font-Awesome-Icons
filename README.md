@@ -51,3 +51,12 @@ var ValveSteamIconSVGPathData := GetFontAwesomeIconPathData('steam', 24); // Ret
 var BrushIconSVGPathData := GetFontAwesomeIconPathData('brush', 24); // Returns SVG Path Data Text with Width/Height set to 24
 ```
 Other ways to use Font Awesome Icons: [https://fontawesome.com/docs](https://fontawesome.com/docs)
+
+## License
+
+- Font Awesome Icons are free and open source ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+
+---
+
+## Other Delphi Icon Libraries
+- [Bootstrap Icons](https://github.com/shaunroselt/Delphi-Bootstrap-Icons)

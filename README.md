@@ -24,14 +24,20 @@ uses uFontAwesomeIcons
 
 ...
 
+// Returns SVG Code:
+var HouseIconSVG := GetFontAwesomeIcon('house');
+var ValveSteamIconSVG := GetFontAwesomeIcon('steam');
+var BrushIconSVG := GetFontAwesomeIcon('brush');
 
-var HouseIconSVG := GetFontAwesomeIcon('house'); // Returns SVG Code
-var ValveSteamIconSVG := GetFontAwesomeIcon('steam'); // Returns SVG Code
-var BrushIconSVG := GetFontAwesomeIcon('brush'); // Returns SVG Code
+// Returns SVG Code with Width/Height set to 24:
+var HouseIconSVG := GetFontAwesomeIcon('house', 24); 
+var ValveSteamIconSVG := GetFontAwesomeIcon('steam', 24);
+var BrushIconSVG := GetFontAwesomeIcon('brush', 24);
 
-var HouseIconSVG := GetFontAwesomeIcon('house', 24); // Returns SVG Code with Width/Height set to 24
-var ValveSteamIconSVG := GetFontAwesomeIcon('steam', 24); // Returns SVG Code with Width/Height set to 24
-var BrushIconSVG := GetFontAwesomeIcon('brush', 24); // Returns SVG Code with Width/Height set to 24
+// Returns SVG Code with Width/Height set to 24 and color set to purple (#800080):
+var HouseIconSVG := GetFontAwesomeIcon('house', 24, 'purple'); 
+var ValveSteamIconSVG := GetFontAwesomeIcon('steam', 24, '#800080');
+var BrushIconSVG := GetFontAwesomeIcon('brush', 24, 'purple');
 ```
 
 ### SVG Path Data
@@ -41,14 +47,20 @@ uses uFontAwesomeIcons
 
 ...
 
+// Returns SVG Code:
+var HouseIconSVG := GetFontAwesomeIconPathData('house');
+var ValveSteamIconSVG := GetFontAwesomeIconPathData('steam');
+var BrushIconSVG := GetFontAwesomeIconPathData('brush');
 
-var HouseIconSVGPathData := GetFontAwesomeIconPathData('house'); // Returns SVG Path Data Text
-var ValveSteamIconSVGPathData := GetFontAwesomeIconPathData('steam'); // Returns SVG Path Data Text
-var BrushIconSVGPathData := GetFontAwesomeIconPathData('brush'); // Returns SVG Path Data Text
+// Returns SVG Code with Width/Height set to 24:
+var HouseIconSVG := GetFontAwesomeIconPathData('house', 24); 
+var ValveSteamIconSVG := GetFontAwesomeIconPathData('steam', 24);
+var BrushIconSVG := GetFontAwesomeIconPathData('brush', 24);
 
-var HouseIconSVGPathData := GetFontAwesomeIconPathData('house', 24); // Returns SVG Path Data Text with Width/Height set to 24
-var ValveSteamIconSVGPathData := GetFontAwesomeIconPathData('steam', 24); // Returns SVG Path Data Text with Width/Height set to 24
-var BrushIconSVGPathData := GetFontAwesomeIconPathData('brush', 24); // Returns SVG Path Data Text with Width/Height set to 24
+// Returns SVG Code with Width/Height set to 24 and color set to purple (#800080):
+var HouseIconSVG := GetFontAwesomeIconPathData('house', 24, 'purple'); 
+var ValveSteamIconSVG := GetFontAwesomeIconPathData('steam', 24, '#800080');
+var BrushIconSVG := GetFontAwesomeIconPathData('brush', 24, 'purple');
 ```
 Other ways to use Font Awesome Icons: [https://fontawesome.com/docs](https://fontawesome.com/docs)
 

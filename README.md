@@ -96,3 +96,4 @@ Other ways to use Font Awesome Icons: [https://fontawesome.com/docs](https://fon
 
 ## Other Delphi Icon Libraries
 - [Bootstrap Icons](https://github.com/shaunroselt/Delphi-Bootstrap-Icons)
+- [Feather Icons](https://github.com/shaunroselt/Delphi-Feather-Icons)

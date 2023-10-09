@@ -62,6 +62,30 @@ var HouseIconSVG := GetFontAwesomeIconPathData('house', 24, 'purple');
 var ValveSteamIconSVG := GetFontAwesomeIconPathData('steam', 24, '#800080');
 var BrushIconSVG := GetFontAwesomeIconPathData('brush', 24, 'purple');
 ```
+
+### SVG Base64 Image
+
+```pascal
+uses uFontAwesomeIcons
+
+...
+
+// Returns SVG Base64 Image:
+var HouseIconSVGBase64 := GetFontAwesomeIconBase64('house');
+var ValveSteamIconSVGBase64 := GetFontAwesomeIconBase64('steam');
+var BrushIconSVGBase64 := GetFontAwesomeIconBase64('brush');
+
+// Returns SVG Base64 Image with Width/Height set to 24:
+var HouseIconSVGBase64 := GetFontAwesomeIconBase64('house', 24); 
+var ValveSteamIconSVGBase64 := GetFontAwesomeIconBase64('steam', 24);
+var BrushIconSVGBase64 := GetFontAwesomeIconBase64('brush', 24);
+
+// Returns SVG Base64 Image with Width/Height set to 24 and color set to purple (#800080):
+var HouseIconSVGBase64 := GetFontAwesomeIconBase64('house', 24, 'purple'); 
+var ValveSteamIconSVGBase64 := GetFontAwesomeIconBase64('steam', 24, '#800080');
+var BrushIconSVGBase64 := GetFontAwesomeIconBase64('brush', 24, 'purple');
+```
+
 Other ways to use Font Awesome Icons: [https://fontawesome.com/docs](https://fontawesome.com/docs)
 
 ## License
